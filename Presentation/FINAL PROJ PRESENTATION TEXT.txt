@@ -1,0 +1,128 @@
+FINAL PROJ PRESENTATION NOTES
+
+1. Problem
+	- Hello, my name is Joshua Rogin and the project I have to present is titled 'It's the Economy, Stupid'. The title is of course a reference to James Carville's line during the 1992 presidential election, an election which would see the sitting president, George HW Bush, lose to Bill Clinton, a loss usually attributed to the perception that Bush was responsible for an especially poorly performing economy. In at least this instance there's likely something to Carville pronouncement, given that just a year earlier Bush had held an approval rating of 90% following the first Gulf War. Still this is the kind of sentimental 'seems-right' reasoning I wanted  to apply my Data Science skills to examining deliberately.
+
+~~ slide
+
+SO, the question as I phrased it was this: can we look at economic data and election outcomes and apply Machine Learning models to account for one or the other - that is, can we find a relationship in the historic data and then make better predictions about future elections based on current data.
+
+To that end I had a few goals in mind as far as the methodology I would develop- 
+
+~~slide
+
+
+Independence - I wanted to use primary sources as much as possible, rather than building a model out of other models and relying other analyists assumptions about significance. This meant at least initially avoiding the most common sources of economic data.
+
+Modularity -  the datasets produced should be easily connected to new sources or swapped out in order to easily examine different relationships.
+
+Preservation - a total avoidance of destructive processes while creating a library of formatted data to be used in the future - economic data was formatted and preserved seperately from election data, but the methods of joining them were programatic so that any sources could be combined and fed into the model, or old data which had at first been dismissed as unimportant could be re-incorporated.
+
+Granularity - data should be grouped by geographic bounds of an appropirate size, so that each boundary is significant, but they don't contain too much data. These boundaries also shouldn't change often and should be unlikely to change in the future.. 
+
+Future-Proofing - With the principles of modularity, preservation and granularity, the ability to easily add in future data follows easily.
+
+~~~~Slide 
+
+So! With these principles in mind, I opted to use United States House of Representatives elections as one data source, which have the advantage of being frequent (elections are held every two years for all 435 seats), usually have multiple candidates running in each race, and can be also broken down on a county-by-county basis, satisfying granularity and avoiding having to account for redistricting of congressional districts and other changes over time. 
+
+~~~~~ slide
+
+To this I joined yearly data from the Internal Revenue Service reporting on individual tax filings -  the number individuals filing within various categories and the value of the taxes paid in those categories.
+
+For this stage of the project I elected to focus on just three states over the years 2012 to 2020: Ohio, Wisconsin and Illinois. These three were chosen due to the intra-state differences in political outcomes, the year-to-year variety of those outcomes and their demographic differences to act as a representative sample of the larger data-universe.
+
+~~~~ Slide
+
+
+The election data was then prepared, grouping vote totals by party and incumbancy status, with considerations for the potential of multiple states having counties with identical names. The IRS data was then modified so that rather than appending the base yearly values, the data for each election year had the previous year's value subtracted, capturing a view of economic growth or loss. If a county had fewer people employed and paying federal taxes compared to the year before, or saw a drop in Federal tax revenue, which could be correlated to a change in the quality of the local economy.
+
+With this done  I had the initial suite of datasets for each election year to be examined and proceeded to combined them into a single dataframes to feed into a machine learning pipeline. 
+
+
+~~~~~~Slide
+
+For this processes I constructed relevant features from the election data, applied a PCA function to reduce the total independent features (the IRS data alone contained upwards of 150 columns year-to-year), split the data into training and testing sets at a 4-1 ratio and ran a gridsearch to determine the ideal model and hyperparameters. The best fitting model was then trained and applied to the test dataset, 
+
+~~~~~Slide
+
+receiving an r-squared score of (update with final result) .319 and an MSE of (update with final result) 26.77, meaning that while the model produced a low MSE, our economic data can account for very little of the change in vote totals for incumbants vs challengers. To some degree, this is expected, the underlying causes of this data are complicated and overdetermined, and a higher explanitory value would actually be more likely to indicate that we'd done something wrong at this stage. 
+
+~~~ slide
+
+
+Next Steps - incorporate additional states - split data by Income Tax Bracket
+Overall this is a subject that I'm quite invested in and eager to continue exploring.
+Thank you
+
+Issues - Primarily ones of data sources. In the US is that elections are administered and recorded by each state individually. This means dealing with 51 different formatting decisions and standards, nevermind that some might 'decide' to change those standards year-to-year.Turning those into a harmonious source was... trying, and definitely slow, but that's data science, baby. 
+
+The other issue was handling outliers - Cook County is very large and contains multiple congressional districts, while Ohio has four counties which each have only 15,000 people living in them., and, as mentioned, the IRS data is going to inherently contain outliers as it is raw economic data, even after ataking the log and applying min-max scaling
+
+
+Next Steps - incorporate additional states - split data by Income Tax Bracket
+Overall this is a subject that I'm quite interested in and eager to continue exploring.
+
+
+And speaking of geographic boundary, rather than trying to track congressional districts, I opted to use data broken down by county. This brought with it another issue, which is that some counties are very large and hold many congressional districts, and some are very small and might only hold a few thousand voters/tax payers. The other issue inherent with working with election data in the US is that elections are administered and recorded by each state individually. This means dealing with 51 different formatting decisions and standards, nevermind that some might 'decide' to change those standards year-to-year.Turning those into a harmonious source was... trying, and definitely slow, but that's data science, baby. 
+
+Due to this, however, I elected to focus on just three states for the inital portion of this project: Ohio, Wisconsin and Illinois. The choice of these three was due to the differences in their political outcomes and their ability to act as a representative sample. Each of them have elected both Democratic and Republican Governors and Senators during the past 20 years, and, broadly, Illinois is considered a 'Blue' State, Ohio a 'Red' State and Wisconsin a swing state at the presidential level. 
+
+
+To this I joined data from the Internal Revenue Service reporting on individual tax filings -  the number individuals filing, the value of the taxes paid in numerous categories (Salaries, wages, deductions, capital gains, dividends, taxes paid on realestate.. so on and so forth around 150 different features), and, thankfully, this could also be easily grouped by the county it was paid in.
+
+Data from the IRS was naturally more friendly and bureaucratic. Again, this data consisted of reporting on individual tax filings - so, the number individuals filing, the value of the taxes paid in numerous categories (Salaries, wages, deductions, capital gains, dividends, taxes paid on realestate.. so on and so forth around 150 different features), and, thankfully, was offered grouped by the county it was paid in.
+
+For this project I elected to focus on just three states over the years 2012 to 2020: Ohio, Wisconsin and Illinois. The choice of these three was due to the differences in their political outcomes and their ability to act as a representative sample of election outcomes over the period to be studied. Each of them have elected both Democratic and Republican Governors and Senators during the past 20 years, and, broadly, Illinois is considered a 'Blue' State, Ohio a 'Red' State and Wisconsin a swing state at the presidential level. 
+
+So with these choices made, after sorting and formatting the election data, grouping vote totals by party, calculated the percentage of votes recieved by Democratic candidates in each county and appending the IRS data, I had the initial suite of datasets I would use for this stage of the project. This consisted of Election and IRS data from 2012 to 2020. I then generated two seperate dataframes to model. One consisting of just the Election data married to the IRS data, and the other where the IRS data for the election year had the previous year's data subtracted from it, giving the change from the previous year. Thus, if a county had few people employed and paying federal taxes, or a sudden drop in Federal tax revenue which could be correlated to a loss of economic productivity, it would be recorded.
+
+To these dataframes I applied a PCA function to reduce the number of features (again, the IRS data alone contained upwards of 150 columns year-to-year) and ran a gridsearch to determine the ideal model. hyperparameters, and applied that model to the 
+
+ Some states release single page csv files with thousands of rows detailing every precinct's vote totals, and some produce hundred page excel files with each office up for election having their own entry. 
+
+
+
+
+
+To be clear, for this instance I have decided to use vote totals for the Democratic and Republican parties as the target, but in keeping with the principles of modularity, future-proofing and preservation, have kept accessable all inforation about incumbancy, individual candidates and third-party vote totals for future use.
+
+ (and so will  but would need to break down by county rather than Congressional districts due to the princple of granularity, and would join this data to data about income tax payments made to the Internal Revenue Service. In the US, Federal Elections are administered by the individual states and congressional boundaries are drawn by those same states. Because of this, congressional 
+
+each state reports and records their own election outcomes and, records results 
+
+~~~~~~~~~~ ISSUES TO DISCUSS AT THE END
+Handling ouliers - due to some counties being very large and others being very small
+
+
+So! For this project I took election data from individual states' reporting and from the Federal Election commission consisting of just raw data - the States, districts, offices, vote totals, candidate names and party affiliation and joined it . The issue was that because this data was composed by 53 seperate entities, there was very little overlap in formatting choices between them. 
+
+To that I joined the IRS's annual reporting on individual tax filings. - so, the number individuals filing, the value of the taxes paid in numerous categories (Salaries, wages, deductions, capital gains, dividends, taxes paid on realestate.. so on and so forth around 150 different features), and, thankfully, the county where the filing was made. 
+
+So, from these I was able to join all of the data for three States, Ohio, Wisconsin and Illinois. I decided to start this project with those states due to the differences in their political outcomes. All three have elected Democratic and Republican Governors and Senators during the past 20 years and, broadly, Illinois is considered a 'Blue' State, Ohio a 'Red' State and Wisconsin a swing state at the presidential level.
+
+Methodology - 
+
+, brokedown and reworked the native formatting so that all of that was harmonious. The issue with this is that individual states all have WILDLY different formatting for their election data. 
+
+For the economic data knew that I wanted to see how 
+
+I took the counts of values of individual tax returns 
+
+My phrasing there is very deliberate, since while these are obviously intertwined, they're also certainly overdetermined and multivalanced that I went into this without any illusions about proving anything definitively, but only of examining the data and seeing how much explaining a model could do.
+
+The relationship between economics and politics is naturally complicated and the question of how much 
+	SO, the question I thought to examine was just this: can we look at economic data and election outcomes and apply Machine Learning models to account for one or the other - that is, can we see a relationship and then make predictions about future elections.
+
+	Sidenote - I am not insane. I have no illusions about tackling the scope, depth and breadth of political science, having just walked in the door with some small little group of algorithms. The idea of tackling something this big with something like that is a bit silly
+ 
+2. Data 
+	-  for this project I wanted to limit myself to primary sources as much as possible. This makes getting 'data' about economic activity and health very difficult, of course, but it has the advantage of not building a model that relies on another model. Again, this wasn't necessary, but I hoped it would at least lead to some novel work.
+	- To that end, I decided to examing election outcomes in the US between 2012 and 2020 and pair that with data from the Internal Revenue Service. Now, there are two good reasons for this. One, both sources allowed me to maintain a certain granularity. 
+	- The US's system of States administering elections means that there are 51 seperate bodies handling all federal elections. Given the number ofg races every year, I chose to examine a subset of those and limited this project to just the House of Representatives. 
+	Nationally there are 435 house seats up for election every two years. Each seat represents one district whose lines are determined every decade, meaning that they shift, and shrink and change, which is bad when you're trying to build a model of something. So, rather than looking at votes per house district, I opted to look at votes per house district per county. 
+	While solving some problems, this brought complications as well since some counties are quite large (LA County has x people living in it and holds x congressional districts) and others might only have a few thousand voters in them. This also goes for the IRS data, some counties are quite dense and others quite sparse, as far as the magnitude of economic activity to be measured.
+	Speaking of economic activity, the IRS data I was using consisted of  
+3. Methodolgy
+4. Results
+5. Next Steps
