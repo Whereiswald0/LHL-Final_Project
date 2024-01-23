@@ -46,7 +46,7 @@ For this processes I constructed relevant features from the election data, appli
 
 ~~~~~Slide
 
-receiving an r-squared score of (update with final result) .319 and an MSE of (update with final result) 26.77, meaning that while the model produced a low MSE, our economic data can account for very little of the change in vote totals for incumbants vs challengers. To some degree, this is expected, the underlying causes of this data are complicated and overdetermined, and a higher explanitory value would actually be more likely to indicate that we'd done something wrong at this stage. 
+receiving an r-squared score of .319 and an MSE of 26.77, meaning that while the model produced a low MSE, our economic data can explain less than a third of the change in vote totals for incumbants vs challengers. To some degree, this is expected, the underlying causes generating this data are complicated and overdetermined, and a higher explanitory value would actually be more likely to indicate that we'd done something wrong at this stage. 
 
 ~~~ slide
 
