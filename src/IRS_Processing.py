@@ -23,7 +23,7 @@ processed_irs_files = []
 print("Formatting raw IRS data")
 for i in irs_raw_files:
     file = pd.read_csv(f'{irs_raw_folder_path}/{i}', encoding='latin-1') #irs formatting requires this encoding
-    file = file.drop(['STATEFIPS','AGI_STUB','COUNTYFIPS'],axis=1).reset_index(drop=True) # not used for the current analysis, but raw files are presevered for future use.
+    file = file.drop(['STATEFIPS','AGI_STUB','COUNTYFIPS'],axis=1).reset_index(drop=True) # drop columns not used for the current analysis, but raw files are presevered for future use.
     
     # Lambda function to generate a boolian mask filtering 'COUNTYNAME' values with a single word, 
     # removing all single name counties (should be agg. state data)

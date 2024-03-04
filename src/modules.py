@@ -32,6 +32,15 @@ def remove_keyword(data, keyword):
 
     return mod_list
 
+def candidate_firstname(data,delimiter=' '):
+    """
+    This function will get the first name where candidate names are stored 'LastName, First Name middlename/title'
+    """
+    data_split = [cand.split(delimiter) for cand in data]
+    cand_name = [name[1] for name in data_split]
+    cand_name = [name.strip() for name in cand_name]
+    return cand_name
+
 def remove_middle_name(data):
     """this will return the start and end of a split item,
     built to remove middle names and titles from full name columns """
@@ -157,6 +166,46 @@ def format_OH(data):
     data_copy = data_copy.groupby('County').sum().reset_index()
     return data_copy
 
+def format_PA(data):
+    """
+    This function is built to format election data 
+    as recorded by the Pennsylvania Department of State.
+    The PA DoS elections website allows you to generate data for individual elections years 
+    """
+    
+    # Format names using 'trim party' function to remove middle names and titles, then concatinate so name matches FEC data
+    data['CanLastName'] = trim_party(data['Candidate Name'],',') #removes middle names
+    data['CanFirstName'] = candidate_firstname(data['Candidate Name'], ' ') #removes titles appended to last names
+    data['Candidate Name(f)'] = data['CanFirstName']+' '+data['CanLastName']
+    #format names as lower-case
+    data['Candidate Name(f)'] = data['Candidate Name(f)'].astype(str).str.lower()
+
+    # Create list of candidates
+    cand_list = data['Candidate Name(f)'].unique()
+
+    #reduce candidate list to just names, if any name-final punctuation remains after removing titles
+    cand_list = [''.join(char for char in i if char.isalpha() or char.isspace()) for i in cand_list] 
+
+    # Since all races appear in a single sheet
+    # Create tables for each candidate
+    cand_tables = {}
+    for i in cand_list:
+        candidate_df = data[data['Candidate Name(f)'] == i][['County Name', 'Votes']]
+        candidate_df = candidate_df.groupby('County Name').sum().reset_index()
+        cand_tables[i] = candidate_df
+
+    # Merge tables
+    merged_df = cand_tables[cand_list[0]]
+    for i in cand_list[1:]:
+        merged_df = pd.merge(merged_df, cand_tables[i], on='County Name', how='outer', suffixes=('_' + i, ''))
+
+    # Rename columns
+    merged_df.columns = ['County Name'] + list(cand_list)
+
+    # If candidate received zero votes, fill NaN
+    merged_df = merged_df.fillna(0)
+    return merged_df
+
 def state_join_FEC(data, fec_data):
     """ 
     This function prepares and joins FEC data to the state election data
@@ -204,7 +253,7 @@ def state_trans(data, counties):
     reset_data.columns = reset_data.iloc[-1]
     reset_data = reset_data[:-1]
     cols = list(reset_data.columns)
-    cols.insert(0,'County')
+    cols.insert(0,'County') # This is actually a very important line since it homogenizes the column name for counties, allows other merges to work
     reset_data['County'] = counties
     reset_data = reset_data[cols]
     return reset_data
@@ -226,7 +275,7 @@ def get_WI_data(sheet_names,filepath):
     data = data.rename(columns=col_dic) 
     data = data.groupby('County').sum().reset_index()
     # lower_county  = [i.lower() for i in data['County'].tolist()]
-    data['County'] = [i.lower() for i in data['County'].tolist()]
+    data['County'] = [i.lower().strip() for i in data['County'].tolist()]
     data = data[~data['County'].str.contains('total')].copy()
     
     return data
@@ -263,6 +312,7 @@ def prev_year_change(data1, data2):
     merged = pd.concat([
         data1[c] if c not in col_common or data1[c].dtype == 'O' else data1[c] - data2[c]
         for c in data1.columns
+        
     ], axis=1)
     
     return merged
