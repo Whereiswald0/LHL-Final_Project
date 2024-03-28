@@ -14,8 +14,11 @@ def two_party(data):
     There is a joke here somewhere about 'tm is is how the political system actually works'"""
     if data['PARTY'] in ['R', 'D']:
         return data['PARTY']
+    elif data['PARTY'] == 'DFL':
+        return "D"
     else:
         return "OTHER"
+    
     
 def remove_keyword(data, keyword):
     mod_list = []
@@ -224,8 +227,8 @@ def state_join_FEC(data, fec_data):
     cand_list = list(data_t.index)
     
     # Render candidate names in lowercase to match FEC data
-    cand_list = [i.lower() for i in cand_list]
-    data_t.index = cand_list
+    # cand_list = [i.lower() for i in cand_list]
+    # data_t.index = cand_list
     
     # Merge FEC data, associating each candidate with their party and incumbancy
     data_t = pd.merge(data_t, fec_data, left_index=True, right_on='CANDIDATE NAME(f)').reset_index(drop=True)
@@ -265,7 +268,6 @@ def get_WI_data(sheet_names,filepath):
     """
 
     col_dic = {'Unnamed: 0':'County'} #column names to reformat
-    # bad_counties = ['total','percentage'] #rows with totals rather than county data
     data = pd.DataFrame()
 
     for i in sheet_names:
@@ -274,7 +276,7 @@ def get_WI_data(sheet_names,filepath):
     # # Due to source formatting, 'Counties' column will appear unnamed when first imported, rename to counties:
     data = data.rename(columns=col_dic) 
     data = data.groupby('County').sum().reset_index()
-    # lower_county  = [i.lower() for i in data['County'].tolist()]
+    
     data['County'] = [i.lower().strip() for i in data['County'].tolist()]
     data = data[~data['County'].str.contains('total')].copy()
     
@@ -312,6 +314,7 @@ def prev_year_change(data1, data2):
     merged = pd.concat([
         data1[c] if c not in col_common or data1[c].dtype == 'O' else data1[c] - data2[c]
         for c in data1.columns
+        
     ], axis=1)
     
     return merged

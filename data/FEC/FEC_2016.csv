@@ -6,7 +6,7 @@ AL,03,Mike,Rogers,mike rogers,"Rogers, Mike",R,1,192164
 AL,03,Jesse,Smith,jesse smith,"Smith, Jesse",D,0,94549
 AL,04,Robert,Aderholt,robert aderholt,"Aderholt, Robert",R,1,235925
 AL,05,Mo,Brooks,mo brooks,"Brooks, Mo",R,1,205647
-AL,05,"Will, Jr.",Boyd,"will, boyd","Boyd, Will, Jr.",D,0,102234
+AL,05,"Will, Jr.",Boyd,will boyd,"Boyd, Will, Jr.",D,0,102234
 AL,06,Gary,Palmer,gary palmer,"Palmer, Gary",R,1,245313
 AL,06,David J.,Putman,david putman,"Putman, David J.",D,0,83709
 AL,07,Terri A.,Sewell,terri sewell,"Sewell, Terri A.",D,1,229330
@@ -15,11 +15,11 @@ AK,00,Steve,Lindbeck,steve lindbeck,"Lindbeck, Steve",D,0,111019
 AK,00,Jim C.,McDermott,jim mcdermott,"McDermott, Jim C.",OTHER,0,31770
 AK,00,Bernie,Souphanavong,bernie souphanavong,"Souphanavong, Bernie",OTHER,0,9093
 AS,00,Aumua,Amata,aumua amata,"Amata, Aumua",R,1,8923
-AS,00,Vaitinasa Salu,Hunkin-Finau,vaitinasa hunkin-finau,"Hunkin-Finau, Vaitinasa Salu",D,0,1581
+AS,00,Vaitinasa Salu,Hunkin-Finau,vaitinasa hunkinfinau,"Hunkin-Finau, Vaitinasa Salu",D,0,1581
 AS,00,Paepaetele Mapu S.,Jamias,paepaetele jamias,"Jamias, Paepaetele Mapu S.",D,0,978
-AS,00,Meleagi,Suitonu-Chapman,meleagi suitonu-chapman,"Suitonu-Chapman, Meleagi",D,0,181
+AS,00,Meleagi,Suitonu-Chapman,meleagi suitonuchapman,"Suitonu-Chapman, Meleagi",D,0,181
 AS,00,Tim,Jones,tim jones,"Jones, Tim",OTHER,0,171
-AZ,01,Tom,O'Halleran,tom o'halleran,"O'Halleran, Tom",D,0,142219
+AZ,01,Tom,O'Halleran,tom ohalleran,"O'Halleran, Tom",D,0,142219
 AZ,01,Paul,Babeu,paul babeu,"Babeu, Paul",R,0,121745
 AZ,01,Ray,Parrish,ray parrish,"Parrish, Ray",OTHER,0,16746
 AZ,02,Martha,McSally,martha mcsally,"McSally, Martha",R,1,179806
@@ -34,13 +34,13 @@ AZ,04,Mikel,Weisser,mikel weisser,"Weisser, Mikel",D,0,81296
 AZ,05,Andy,Biggs,andy biggs,"Biggs, Andy",R,0,205184
 AZ,05,Talia,Fuentes,talia fuentes,"Fuentes, Talia",D,0,114940
 AZ,06,David,Schweikert,david schweikert,"Schweikert, David",R,1,201578
-AZ,06,W. John,Williamson,w. williamson,"Williamson, W. John",D,0,122866
+AZ,06,W. John,Williamson,w williamson,"Williamson, W. John",D,0,122866
 AZ,07,Ruben,Gallego,ruben gallego,"Gallego, Ruben",D,1,119465
 AZ,07,Eve,Nunez,eve nunez,"Nunez, Eve",R,0,39286
 AZ,07,Neil B.,Westbrooks,neil westbrooks,"Westbrooks, Neil B.",OTHER,0,60
 AZ,08,Trent,Franks,trent franks,"Franks, Trent",R,1,204942
 AZ,08,Mark,Salazar,mark salazar,"Salazar, Mark",OTHER,0,93954
-AZ,08,"Hayden, III",Keener,"hayden, keener","Keener, Hayden, III",OTHER,0,75
+AZ,08,"Hayden, III",Keener,hayden keener,"Keener, Hayden, III",OTHER,0,75
 AZ,09,Kyrsten,Sinema,kyrsten sinema,"Sinema, Kyrsten",D,1,169055
 AZ,09,Dave,Giles,dave giles,"Giles, Dave",R,0,108350
 AZ,09,Cary,Dolego,cary dolego,"Dolego, Cary",OTHER,0,56
@@ -59,7 +59,7 @@ CA,01,Jim,Reed,jim reed,"Reed, Jim",D,0,128588
 CA,02,Jared W.,Huffman,jared huffman,"Huffman, Jared W.",D,1,254194
 CA,02,Dale K.,Mensing,dale mensing,"Mensing, Dale K.",R,0,76572
 CA,03,John G.,Garamendi,john garamendi,"Garamendi, John G.",D,1,152513
-CA,03,N. Eugene,Cleek,n. cleek,"Cleek, N. Eugene",R,0,104453
+CA,03,N. Eugene,Cleek,n cleek,"Cleek, N. Eugene",R,0,104453
 CA,04,Tom,McClintock,tom mcclintock,"McClintock, Tom",R,1,220133
 CA,04,Robert W.,Derlet,robert derlet,"Derlet, Robert W.",D,0,130845
 CA,05,Mike ,Thompson,mike thompson,"Thompson, Mike ",D,1,224526
@@ -91,7 +91,7 @@ CA,17,Mike ,Honda,mike honda,"Honda, Mike ",D,1,90924
 CA,18,Anna G.,Eshoo,anna eshoo,"Eshoo, Anna G.",D,1,230460
 CA,18,Richard B.,Fox,richard fox,"Fox, Richard B.",R,0,93470
 CA,19,Zoe,Lofgren,zoe lofgren,"Lofgren, Zoe",D,1,181802
-CA,19,G. Burt,Lancaster,g. lancaster,"Lancaster, G. Burt",R,0,64061
+CA,19,G. Burt,Lancaster,g lancaster,"Lancaster, G. Burt",R,0,64061
 CA,20,Jimmy ,Panetta,jimmy panetta,"Panetta, Jimmy ",D,0,180980
 CA,20,Casey ,Lucius,casey lucius,"Lucius, Casey ",R,0,74811
 CA,21,David,Valadao,david valadao,"Valadao, David",R,1,75126
@@ -132,7 +132,7 @@ CA,38,Linda T.,Sánchez,linda sánchez,"Sánchez, Linda T.",D,1,163590
 CA,38,Ryan ,Downing,ryan downing,"Downing, Ryan ",R,0,68524
 CA,39,Ed,Royce,ed royce,"Royce, Ed",R,1,150777
 CA,39,Brett ,Murdock,brett murdock,"Murdock, Brett ",D,0,112679
-CA,40,Lucille,Roybal-Allard,lucille roybal-allard,"Roybal-Allard, Lucille",D,1,106554
+CA,40,Lucille,Roybal-Allard,lucille roybalallard,"Roybal-Allard, Lucille",D,1,106554
 CA,40,Roman Gabriel ,Gonzalez,roman gonzalez,"Gonzalez, Roman Gabriel ",OTHER,0,42743
 CA,41,Mark,Takano,mark takano,"Takano, Mark",D,1,128164
 CA,41,Doug,Shepherd,doug shepherd,"Shepherd, Doug",R,0,69159
@@ -141,7 +141,7 @@ CA,42,Tim,Sheridan,tim sheridan,"Sheridan, Tim",D,0,104689
 CA,43,Maxine,Waters,maxine waters,"Waters, Maxine",D,1,167017
 CA,43,Omar,Navarro,omar navarro,"Navarro, Omar",R,0,52499
 CA,44,Nanette Diaz,Barragán,nanette barragán,"Barragán, Nanette Diaz",D,0,93124
-CA,44,"Isadore, III",Hall,"isadore, hall","Hall, Isadore, III",D,0,85289
+CA,44,"Isadore, III",Hall,isadore hall,"Hall, Isadore, III",D,0,85289
 CA,45,Mimi,Walters,mimi walters,"Walters, Mimi",R,1,182618
 CA,45,Ron,Varasteh,ron varasteh,"Varasteh, Ron",D,0,129231
 CA,46,Lou,Correa,lou correa,"Correa, Lou",D,0,115248
@@ -187,7 +187,7 @@ CO,07,Martin L.,Buchanan,martin buchanan,"Buchanan, Martin L.",OTHER,0,18186
 CT,01,John B.,Larson,john larson,"Larson, John B.",D,1,187021
 CT,01,John B.,Larson,john larson,"Larson, John B.",OTHER,1,13665
 CT,01,Matthew M.,Corey,matthew corey,"Corey, Matthew M.",R,0,105674
-CT,01,S. Michael,DeRosa,s. derosa,"DeRosa, S. Michael",OTHER,0,6563
+CT,01,S. Michael,DeRosa,s derosa,"DeRosa, S. Michael",OTHER,0,6563
 CT,01,Charles ,Jackson,charles jackson,"Jackson, Charles ",OTHER,0,1
 CT,01,Mark ,Stewart,mark stewart,"Stewart, Mark ",OTHER,0,1
 CT,02,Joe,Courtney,joe courtney,"Courtney, Joe",D,1,186210
@@ -210,7 +210,7 @@ CT,05,Elizabeth,Esty,elizabeth esty,"Esty, Elizabeth",OTHER,1,15753
 CT,05,Clay,Cope,clay cope,"Cope, Clay",OTHER,0,4901
 CT,05,Clay,Cope,clay cope,"Cope, Clay",R,0,124900
 CT,05,John ,Pistone,john pistone,"Pistone, John ",OTHER,0,28
-CT,05,Ann-Marie,Adams,ann-marie adams,"Adams, Ann-Marie",OTHER,0,1
+CT,05,Ann-Marie,Adams,annmarie adams,"Adams, Ann-Marie",OTHER,0,1
 DE,00,Lisa Blunt,Rochester,lisa rochester,"Rochester, Lisa Blunt",D,0,233554
 DE,00,Hans,Reigle,hans reigle,"Reigle, Hans",R,0,172301
 DE,00,Mark J.,Perri,mark perri,"Perri, Mark J.",OTHER,0,8326
@@ -277,7 +277,7 @@ FL,20,Alcee L.,Hastings,alcee hastings,"Hastings, Alcee L.",D,1,222914
 FL,20,Gary  ,Stein,gary stein,"Stein, Gary  ",R,0,54646
 FL,21,Lois ,Frankel ,lois frankel ,"Frankel, Lois ",D,1,210606
 FL,21,Paul ,Spain,paul spain,"Spain, Paul ",R,0,118038
-FL,21,"W. Michael ""Mike""",Trout,w. trout,"Trout, W. Michael ""Mike""",OTHER,0,7217
+FL,21,"W. Michael ""Mike""",Trout,w trout,"Trout, W. Michael ""Mike""",OTHER,0,7217
 FL,22,Ted,Deutch,ted deutch,"Deutch, Ted",D,1,199113
 FL,22,Andrea Leigh,McGee,andrea mcgee,"McGee, Andrea Leigh",R,0,138737
 FL,23,Debbie Wasserman,Schultz,debbie schultz,"Schultz, Debbie Wasserman",D,1,183225
@@ -285,12 +285,12 @@ FL,23,"Joseph ""Joe""",Kaufman,joseph kaufman,"Kaufman, Joseph ""Joe""",R,0,1308
 FL,23,Don,Endriss,don endriss,"Endriss, Don",OTHER,0,5180
 FL,23,Lyle ,Milstein,lyle milstein,"Milstein, Lyle ",OTHER,0,3897
 FL,24,Frederica,Wilson,frederica wilson,"Wilson, Frederica",D,1,Unopposed
-FL,25,Mario ,Diaz-Balart,mario diaz-balart,"Diaz-Balart, Mario ",OTHER,1,157921
+FL,25,Mario ,Diaz-Balart,mario diazbalart,"Diaz-Balart, Mario ",OTHER,1,157921
 FL,25,Alina,Valdes,alina valdes,"Valdes, Alina",D,0,95319
 FL,26,Carlos,Curbelo,carlos curbelo,"Curbelo, Carlos",OTHER,0,148547
 FL,26,Joe ,Garcia,joe garcia,"Garcia, Joe ",D,1,115493
 FL,26,Jose ,Peixoto,jose peixoto,"Peixoto, Jose ",OTHER,0,16502
-FL,27,Ileana,Ros-Lehtinen,ileana ros-lehtinen,"Ros-Lehtinen, Ileana",R,1,157917
+FL,27,Ileana,Ros-Lehtinen,ileana roslehtinen,"Ros-Lehtinen, Ileana",R,1,157917
 FL,27,Scott,Fuhrman,scott fuhrman,"Fuhrman, Scott",D,0,129760
 GA,01,"Earl ""Buddy""",Carter,earl carter,"Carter, Earl ""Buddy""",R,1,210243
 GA,01,Nathan,Russo,nathan russo,"Russo, Nathan",OTHER,0,869
@@ -440,7 +440,7 @@ KY,01 - FULL TERM,Samuel L.,Gaskins,samuel gaskins,"Gaskins, Samuel L.",D,0,8171
 KY,01 - FULL TERM,Terry,McIntosh,terry mcintosh,"McIntosh, Terry",OTHER,0,332
 KY,01 - UNEXPIRED TERM,James R.,Comer,james comer,"Comer, James R.",R,0,209810
 KY,1 - UNEXPIRED TERM,Samuel L.,Gaskins,samuel gaskins,"Gaskins, Samuel L.",D,0,80813
-KY,02,S. Brett,Guthrie,s. guthrie,"Guthrie, S. Brett",R,1,251825
+KY,02,S. Brett,Guthrie,s guthrie,"Guthrie, S. Brett",R,1,251825
 KY,03,John A.,Yarmuth,john yarmuth,"Yarmuth, John A.",D,1,212401
 KY,03,Harold,Bratcher,harold bratcher,"Bratcher, Harold",R,0,122093
 KY,04,Thomas,Massie,thomas massie,"Massie, Thomas",R,1,233922
@@ -463,22 +463,22 @@ LA,03,Scott A.,Angelle,scott angelle,"Angelle, Scott A.",R,0,91532
 LA,03,"Jacob ""Dorian Phibian""",Hebert,jacob hebert,"Hebert, Jacob ""Dorian Phibian""",D,0,28385
 LA,03,Larry,Rader,larry rader,"Rader, Larry",D,0,27830
 LA,03,Gus,Rantz,gus rantz,"Rantz, Gus",R,0,25662
-LA,03,"""Greg""",Ellison,"""greg"" ellison","Ellison, ""Greg""",R,0,24882
+LA,03,"""Greg""",Ellison,greg ellison,"Ellison, ""Greg""",R,0,24882
 LA,03,Brett,Geymann,brett geymann,"Geymann, Brett",R,0,21607
 LA,03,Bryan,Barrilleaux,bryan barrilleaux,"Barrilleaux, Bryan",R,0,6223
 LA,03,Guy ,McLendon,guy mclendon,"McLendon, Guy ",OTHER,0,2937
 LA,03,"Kenny P., Sr.",Scelfo,kenny scelfo,"Scelfo, Kenny P., Sr.",OTHER,0,2670
 LA,03,Grover Joseph,Rees,grover rees,"Rees, Grover Joseph",R,0,2457
 LA,03,Herman L.,Vidrine,herman vidrine,"Vidrine, Herman L.",R,0,1357
-LA,04,"""Mike""",Johnson,"""mike"" johnson","Johnson, ""Mike""",R,0,70580
+LA,04,"""Mike""",Johnson,mike johnson,"Johnson, ""Mike""",R,0,70580
 LA,04,Marshall,Jones,marshall jones,"Jones, Marshall",D,0,80593
 LA,04,"Ralph ""Trey""",Baucum,ralph baucum,"Baucum, Ralph ""Trey""",R,0,50412
 LA,04,Oliver,Jenkins,oliver jenkins,"Jenkins, Oliver",R,0,44521
 LA,04,Elbert,Guillory,elbert guillory,"Guillory, Elbert",R,0,21017
-LA,04,"""Rick""",John,"""rick"" john","John, ""Rick""",R,0,13220
+LA,04,"""Rick""",John,rick john,"John, ""Rick""",R,0,13220
 LA,04,Mark David,Halverson,mark halverson,"Halverson, Mark David",OTHER,0,3149
 LA,04,Kenneth J.,Krefft,kenneth krefft,"Krefft, Kenneth J.",OTHER,0,2493
-LA,05,"Ralph,  Jr.",Abraham,"ralph, abraham","Abraham, Ralph,  Jr.",R,1,208545
+LA,05,"Ralph,  Jr.",Abraham,ralph abraham,"Abraham, Ralph,  Jr.",R,1,208545
 LA,05,Billy,Burkette,billy burkette,"Burkette, Billy",R,0,47117
 LA,06,Garret,Graves,garret graves,"Graves, Garret",R,1,207483
 LA,06,Richard ,Lieberman,richard lieberman,"Lieberman, Richard ",D,0,49380
@@ -495,7 +495,7 @@ ME,02,Jay Parker,Dresser,jay dresser,"Dresser, Jay Parker",OTHER,0,224
 MD,01,Andy,Harris,andy harris,"Harris, Andy",R,1,242574
 MD,01,Joe,Werner,joe werner,"Werner, Joe",D,0,103622
 MD,01,Matt,Beers,matt beers,"Beers, Matt",OTHER,0,15370
-MD,02,C.A. Dutch,Ruppersberger,c.a. ruppersberger,"Ruppersberger, C.A. Dutch",D,1,192183
+MD,02,C.A. Dutch,Ruppersberger,ca ruppersberger,"Ruppersberger, C.A. Dutch",D,1,192183
 MD,02,Pat,McDonough,pat mcdonough,"McDonough, Pat",R,0,102577
 MD,02,Kristin S.,Kasprzak,kristin kasprzak,"Kasprzak, Kristin S.",OTHER,0,14128
 MD,03,John,Sarbanes,john sarbanes,"Sarbanes, John",D,1,214640
@@ -583,7 +583,7 @@ MI,09,Christopher R.,Morse,christopher morse,"Morse, Christopher R.",R,0,128937
 MI,09,Matthew,Orlando,matthew orlando,"Orlando, Matthew",OTHER,0,9563
 MI,09,John V.,McDermott,john mcdermott,"McDermott, John V.",OTHER,0,6614
 MI,10,Paul ,Mitchell,paul mitchell,"Mitchell, Paul ",R,0,215132
-MI,10,"Frank, Jr.",Accavitti,"frank, accavitti","Accavitti, Frank, Jr.",D,0,110112
+MI,10,"Frank, Jr.",Accavitti,frank accavitti,"Accavitti, Frank, Jr.",D,0,110112
 MI,10,Lisa Lane,Gioia,lisa gioia,"Gioia, Lisa Lane",OTHER,0,10612
 MI,10,Benjamin,Nofs,benjamin nofs,"Nofs, Benjamin",OTHER,0,5127
 MI,11,David A.,Trott,david trott,"Trott, David A.",R,1,200872
@@ -596,7 +596,7 @@ MI,12,Gary,Walkowicz,gary walkowicz,"Walkowicz, Gary",OTHER,0,9183
 MI,12,Tom,Bagwell,tom bagwell,"Bagwell, Tom",OTHER,0,7489
 MI,12,Dylan,Calewarts,dylan calewarts,"Calewarts, Dylan",OTHER,0,4377
 MI,12,Ejaz,Virk,ejaz virk,"Virk, Ejaz",OTHER,0,11
-MI,13,"John, Jr.",Conyers,"john, conyers","Conyers, John, Jr.",D,1,198771
+MI,13,"John, Jr.",Conyers,john conyers,"Conyers, John, Jr.",D,1,198771
 MI,13,Jeff,Gorman,jeff gorman,"Gorman, Jeff",R,0,40541
 MI,13,Tiffany,Hayden,tiffany hayden,"Hayden, Tiffany",OTHER,0,9648
 MI,13,Sam,Johnson,sam johnson,"Johnson, Sam",OTHER,0,8835
@@ -605,31 +605,31 @@ MI,14,Brenda L.,Lawrence,brenda lawrence,"Lawrence, Brenda L.",D,1,244135
 MI,14,Howard,Klausner,howard klausner,"Klausner, Howard",R,0,58103
 MI,14,Gregory,Creswell,gregory creswell,"Creswell, Gregory",OTHER,0,4893
 MI,14,Marcia,Squier,marcia squier,"Squier, Marcia",OTHER,0,3843
-MN,01,Tim ,Walz,tim walz,"Walz, Tim ",OTHER,1,169074
+MN,01,Tim ,Walz,tim walz,"Walz, Tim ",D,1,169074
 MN,01,Jim,Hagedorn,jim hagedorn,"Hagedorn, Jim",R,0,166526
 MN,02,Jason,Lewis,jason lewis,"Lewis, Jason",R,0,173970
-MN,02,Angie ,Craig,angie craig,"Craig, Angie ",OTHER,0,167315
+MN,02,Angie ,Craig,angie craig,"Craig, Angie ",D,0,167315
 MN,02,Paula,Overby,paula overby,"Overby, Paula",OTHER,0,28869
 MN,03,Erik,Paulsen,erik paulsen,"Paulsen, Erik",R,1,223077
-MN,03,Terri E.,Bonoff,terri bonoff,"Bonoff, Terri E.",OTHER,0,169243
-MN,04,Betty ,McCollum,betty mccollum,"McCollum, Betty ",OTHER,1,203299
+MN,03,Terri E.,Bonoff,terri bonoff,"Bonoff, Terri E.",D,0,169243
+MN,04,Betty ,McCollum,betty mccollum,"McCollum, Betty ",D,1,203299
 MN,04,Greg,Ryan,greg ryan,"Ryan, Greg",R,0,121032
 MN,04,Susan Pendergast,Sindt,susan sindt,"Sindt, Susan Pendergast",OTHER,0,27152
-MN,05,Keith,Ellison,keith ellison,"Ellison, Keith",OTHER,1,249964
+MN,05,Keith,Ellison,keith ellison,"Ellison, Keith",D,1,249964
 MN,05,Frank Nelson,Drake,frank drake,"Drake, Frank Nelson",R,0,80660
 MN,05,Dennis,Schuller,dennis schuller,"Schuller, Dennis",OTHER,0,30759
 MN,06,Tom,Emmer,tom emmer,"Emmer, Tom",R,1,235380
-MN,06,David,Snyder,david snyder,"Snyder, David",OTHER,0,123008
-MN,07,Collin,Peterson,collin peterson,"Peterson, Collin",OTHER,1,173589
+MN,06,David,Snyder,david snyder,"Snyder, David",D,0,123008
+MN,07,Collin,Peterson,collin peterson,"Peterson, Collin",D,1,173589
 MN,07,Dave,Hughes,dave hughes,"Hughes, Dave",R,0,156952
-MN,08,Rick ,Nolan,rick nolan,"Nolan, Rick ",OTHER,1,179098
+MN,08,Rick ,Nolan,rick nolan,"Nolan, Rick ",D,1,179098
 MN,08,Stewart,Mills,stewart mills,"Mills, Stewart",R,0,177089
 MS,01,Trent,Kelly,trent kelly,"Kelly, Trent",R,1,206455
 MS,01,Jacob,Owens,jacob owens,"Owens, Jacob",D,0,83947
 MS,01,Chase,Wilson,chase wilson,"Wilson, Chase",OTHER,0,6181
 MS,01,Cathy L.,Toole,cathy toole,"Toole, Cathy L.",OTHER,0,3840
 MS,02,Bennie,Thompson,bennie thompson,"Thompson, Bennie",D,1,192343
-MS,02,"John, II",Bouie,"john, bouie","Bouie, John, II",R,0,83542
+MS,02,"John, II",Bouie,john bouie,"Bouie, John, II",R,0,83542
 MS,02,Troy,Ray,troy ray,"Ray, Troy",OTHER,0,6918
 MS,02,Johnny,McLeod,johnny mcleod,"McLeod, Johnny",OTHER,0,3823
 MS,03,Gregg,Harper,gregg harper,"Harper, Gregg",R,1,209490
@@ -639,7 +639,7 @@ MS,03,Lajena,Sheets,lajena sheets,"Sheets, Lajena",OTHER,0,2158
 MS,04,Steven,Palazzo,steven palazzo,"Palazzo, Steven",R,1,181323
 MS,04,Mark,Gladney,mark gladney,"Gladney, Mark",D,0,77505
 MS,04,Richard Blake,McCluskey,richard mccluskey,"McCluskey, Richard Blake",OTHER,0,14687
-MS,04,Shawn,O'Hara,shawn o'hara,"O'Hara, Shawn",OTHER,0,5264
+MS,04,Shawn,O'Hara,shawn ohara,"O'Hara, Shawn",OTHER,0,5264
 MO,01,Lacy ,Clay,lacy clay,"Clay, Lacy ",D,1,236993
 MO,01,Steven G. ,Bailey,steven bailey,"Bailey, Steven G. ",R,0,62714
 MO,01,Robb E.,Cunningham,robb cunningham,"Cunningham, Robb E.",OTHER,0,14317
@@ -655,7 +655,7 @@ MO,03,Harold,Davis,harold davis,"Davis, Harold",OTHER,0,10
 MO,04,Vicky,Hartzler,vicky hartzler,"Hartzler, Vicky",R,1,225348
 MO,04,Gordon,Christensen,gordon christensen,"Christensen, Gordon",D,0,92510
 MO,04,Mark ,Bliss,mark bliss,"Bliss, Mark ",OTHER,0,14376
-MO,05,"Emanuel, II",Cleaver,"emanuel, cleaver","Cleaver, Emanuel, II",D,1,190766
+MO,05,"Emanuel, II",Cleaver,emanuel cleaver,"Cleaver, Emanuel, II",D,1,190766
 MO,05,Jacob ,Turk,jacob turk,"Turk, Jacob ",R,0,123771
 MO,05,Roy ,Welborn,roy welborn,"Welborn, Roy ",OTHER,0,9733
 MO,06,Sam,Graves,sam graves,"Graves, Sam",R,1,238388
@@ -680,10 +680,10 @@ NE,02,Steven,Laird,steven laird,"Laird, Steven",OTHER,0,9640
 NE,03,Adrian,Smith,adrian smith,"Smith, Adrian",R,1,226720
 NV,01,Dina,Titus,dina titus,"Titus, Dina",D,1,116537
 NV,01,Mary,Perry,mary perry,"Perry, Mary",R,0,54174
-NV,01,Reuben,D'Silva,reuben d'silva,"D'Silva, Reuben",OTHER,0,13897
+NV,01,Reuben,D'Silva,reuben dsilva,"D'Silva, Reuben",OTHER,0,13897
 NV,01,Kamau A. ,Bakari,kamau bakari,"Bakari, Kamau A. ",OTHER,0,3744
 NV,02,Mark E.,Amodei,mark amodei,"Amodei, Mark E.",R,1,182676
-NV,02,"H. D. ""Chip""",Evans,h. evans,"Evans, H. D. ""Chip""",D,0,115722
+NV,02,"H. D. ""Chip""",Evans,h evans,"Evans, H. D. ""Chip""",D,0,115722
 NV,02,John H.,Everhart,john everhart,"Everhart, John H.",OTHER,0,8693
 NV,02,Drew ,Knight,drew knight,"Knight, Drew ",OTHER,0,6245
 NV,03,Jacky,Rosen,jacky rosen,"Rosen, Jacky",D,0,146869
@@ -694,10 +694,10 @@ NV,04,Ruben,Kihuen,ruben kihuen,"Kihuen, Ruben",D,0,128985
 NV,04,Cresent,Hardy,cresent hardy,"Hardy, Cresent",R,1,118328
 NV,04,Steve,Brown,steve brown,"Brown, Steve",OTHER,0,10206
 NV,04,Mike ,Little,mike little,"Little, Mike ",OTHER,0,8327
-NH,01,Carol ,Shea-Porter,carol shea-porter,"Shea-Porter, Carol ",D,1,162080
+NH,01,Carol ,Shea-Porter,carol sheaporter,"Shea-Porter, Carol ",D,1,162080
 NH,01,Frank,Guinta,frank guinta,"Guinta, Frank",R,0,157176
 NH,01,Rich,Ashooh,rich ashooh,"Ashooh, Rich",OTHER,0,55
-NH,01,Shawn P.,O'Connor,shawn o'connor,"O'Connor, Shawn P.",OTHER,0,34735
+NH,01,Shawn P.,O'Connor,shawn oconnor,"O'Connor, Shawn P.",OTHER,0,34735
 NH,01,Brendan,Kelly,brendan kelly,"Kelly, Brendan",OTHER,0,6074
 NH,01,Robert,Lombardo,robert lombardo,"Lombardo, Robert",OTHER,0,5507
 NH,01,John,Potucek,john potucek,"Potucek, John",OTHER,0,163
@@ -726,19 +726,19 @@ NJ,04,Jeremy,Marcus,jeremy marcus,"Marcus, Jeremy",OTHER,0,3320
 NJ,05,Joshua S.,Gottheimer,joshua gottheimer,"Gottheimer, Joshua S.",D,0,172587
 NJ,05,Scott,Garrett,scott garrett,"Garrett, Scott",R,1,157690
 NJ,05,Claudio,Belusic,claudio belusic,"Belusic, Claudio",OTHER,0,7424
-NJ,06,"Frank, Jr.",Pallone,"frank, pallone","Pallone, Frank, Jr.",D,1,167895
-NJ,06,Brent,Sonnek-Schmelz,brent sonnek-schmelz,"Sonnek-Schmelz, Brent",R,0,91908
+NJ,06,"Frank, Jr.",Pallone,frank pallone,"Pallone, Frank, Jr.",D,1,167895
+NJ,06,Brent,Sonnek-Schmelz,brent sonnekschmelz,"Sonnek-Schmelz, Brent",R,0,91908
 NJ,06,Rajit B.,Malliah,rajit malliah,"Malliah, Rajit B.",OTHER,0,1912
 NJ,06,Judith ,Shamy,judith shamy,"Shamy, Judith ",OTHER,0,1720
 NJ,07,Leonard,Lance,leonard lance,"Lance, Leonard",R,1,185850
 NJ,07,Peter,Jacob,peter jacob,"Jacob, Peter",D,0,148188
-NJ,07,Dan,O'Neill,dan o'neill,"O'Neill, Dan",OTHER,0,5343
+NJ,07,Dan,O'Neill,dan oneill,"O'Neill, Dan",OTHER,0,5343
 NJ,07,"Arthur T., Jr.",Haussmann,arthur haussmann,"Haussmann, Arthur T., Jr.",OTHER,0,4254
 NJ,08,Albio,Sires,albio sires,"Sires, Albio",D,1,134733
 NJ,08,Agha,Khan,agha khan,"Khan, Agha",R,0,32337
 NJ,08,Pablo ,Olivera,pablo olivera,"Olivera, Pablo ",OTHER,0,4381
 NJ,08,Dan,Delaney,dan delaney,"Delaney, Dan",OTHER,0,3438
-NJ,09,"Bill, Jr.",Pascrell,"bill, pascrell","Pascrell, Bill, Jr.",D,1,162642
+NJ,09,"Bill, Jr.",Pascrell,bill pascrell,"Pascrell, Bill, Jr.",D,1,162642
 NJ,09,Hector L.,Castillo,hector castillo,"Castillo, Hector L.",R,0,65376
 NJ,09,Diego,Rivera,diego rivera,"Rivera, Diego",OTHER,0,3327
 NJ,09,Jeff,Boss,jeff boss,"Boss, Jeff",OTHER,0,1897
@@ -752,7 +752,7 @@ NJ,11,Thomas,Depasquale,thomas depasquale,"Depasquale, Thomas",OTHER,0,7056
 NJ,11,Jeff,Hetrick,jeff hetrick,"Hetrick, Jeff",OTHER,0,3475
 NJ,12,Bonnie Watson,Coleman,bonnie coleman,"Coleman, Bonnie Watson",D,1,181430
 NJ,12,Steven J.,Uccio,steven uccio,"Uccio, Steven J.",R,0,92407
-NJ,12,R. Edward,Forchion,r. forchion,"Forchion, R. Edward",OTHER,0,6094
+NJ,12,R. Edward,Forchion,r forchion,"Forchion, R. Edward",OTHER,0,6094
 NJ,12,Robert,Shapiro,robert shapiro,"Shapiro, Robert",OTHER,0,2775
 NJ,12,Thomas ,Fitzpatrick,thomas fitzpatrick,"Fitzpatrick, Thomas ",OTHER,0,2482
 NJ,12,Steven  ,Welzer,steven welzer,"Welzer, Steven  ",OTHER,0,2135
@@ -768,9 +768,9 @@ NY,01,Lee M.,Zeldin,lee zeldin,"Zeldin, Lee M.",R,1,158409
 NY,01,Lee M.,Zeldin,lee zeldin,"Zeldin, Lee M.",OTHER,1,23327
 NY,01,Lee M.,Zeldin,lee zeldin,"Zeldin, Lee M.",OTHER,1,843
 NY,01,Lee M.,Zeldin,lee zeldin,"Zeldin, Lee M.",OTHER,1,5920
-NY,01,Anna E.,Throne-Holst,anna throne-holst,"Throne-Holst, Anna E.",D,0,126635
-NY,01,Anna E.,Throne-Holst,anna throne-holst,"Throne-Holst, Anna E.",OTHER,0,2496
-NY,01,Anna E.,Throne-Holst,anna throne-holst,"Throne-Holst, Anna E.",OTHER,0,6147
+NY,01,Anna E.,Throne-Holst,anna throneholst,"Throne-Holst, Anna E.",D,0,126635
+NY,01,Anna E.,Throne-Holst,anna throneholst,"Throne-Holst, Anna E.",OTHER,0,2496
+NY,01,Anna E.,Throne-Holst,anna throneholst,"Throne-Holst, Anna E.",OTHER,0,6147
 NY,02,Peter T. ,King,peter king,"King, Peter T. ",OTHER,1,157571
 NY,02,Peter T. ,King,peter king,"King, Peter T. ",OTHER,0,21810
 NY,02,Peter T. ,King,peter king,"King, Peter T. ",OTHER,0,2125
@@ -789,8 +789,8 @@ NY,04,David H.,Gurfein,david gurfein,"Gurfein, David H.",OTHER,0,14137
 NY,04,David H.,Gurfein,david gurfein,"Gurfein, David H.",OTHER,0,1055
 NY,05,Gregory W.,Meeks,gregory meeks,"Meeks, Gregory W.",D,1,197852
 NY,05,Gregory W.,Meeks,gregory meeks,"Meeks, Gregory W.",OTHER,1,1963
-NY,05,Michael A.,O'Reilly,michael o'reilly,"O'Reilly, Michael A.",R,0,26791
-NY,05,Michael A.,O'Reilly,michael o'reilly,"O'Reilly, Michael A.",OTHER,0,3521
+NY,05,Michael A.,O'Reilly,michael oreilly,"O'Reilly, Michael A.",R,0,26791
+NY,05,Michael A.,O'Reilly,michael oreilly,"O'Reilly, Michael A.",OTHER,0,3521
 NY,05,Frank,Francois,frank francois,"Francois, Frank",OTHER,0,3587
 NY,06,Grace ,Meng,grace meng,"Meng, Grace ",D,1,131463
 NY,06,Grace ,Meng,grace meng,"Meng, Grace ",OTHER,1,5043
@@ -906,9 +906,9 @@ NY,27,Chris,Collins,chris collins,"Collins, Chris",OTHER,1,34292
 NY,27,Chris,Collins,chris collins,"Collins, Chris",OTHER,1,9995
 NY,27,Chris,Collins,chris collins,"Collins, Chris",OTHER,1,1089
 NY,27,Diana K.,Kastenbaum,diana kastenbaum,"Kastenbaum, Diana K.",D,0,107832
-NC,01,G. K.,Butterfield,g. butterfield,"Butterfield, G. K.",D,1,240661
-NC,01,"H. Powell, Jr.",Dew,h. dew,"Dew, H. Powell, Jr.",R,0,101567
-NC,01,J.J.,Summerell,j.j. summerell,"Summerell, J.J.",OTHER,0,8471
+NC,01,G. K.,Butterfield,g butterfield,"Butterfield, G. K.",D,1,240661
+NC,01,"H. Powell, Jr.",Dew,h dew,"Dew, H. Powell, Jr.",R,0,101567
+NC,01,J.J.,Summerell,jj summerell,"Summerell, J.J.",OTHER,0,8471
 NC,02,George,Holding,george holding,"Holding, George",R,1,221485
 NC,02,John P.,McNeil,john mcneil,"McNeil, John P.",D,0,169082
 NC,03,Walter B.,Jones,walter jones,"Jones, Walter B.",R,1,217531
@@ -917,10 +917,10 @@ NC,04,David,Price,david price,"Price, David",D,1,279380
 NC,04,Sue,Googe,sue googe,"Googe, Sue",R,0,130161
 NC,05,Virginia,Foxx,virginia foxx,"Foxx, Virginia",R,1,207625
 NC,05,Josh,Brannon,josh brannon,"Brannon, Josh",D,0,147887
-NC,06,B. Mark,Walker,b. walker,"Walker, B. Mark",R,1,207983
+NC,06,B. Mark,Walker,b walker,"Walker, B. Mark",R,1,207983
 NC,06,Pete,Glidewell,pete glidewell,"Glidewell, Pete",D,0,143167
 NC,07,David,Rouzer,david rouzer,"Rouzer, David",R,1,211801
-NC,07,J. Wesley,Casteen,j. casteen,"Casteen, J. Wesley",D,0,135905
+NC,07,J. Wesley,Casteen,j casteen,"Casteen, J. Wesley",D,0,135905
 NC,08,Richard,Hudson,richard hudson,"Hudson, Richard",R,1,189863
 NC,08,Thomas,Mills,thomas mills,"Mills, Thomas",D,0,133182
 NC,09,Robert,Pittenger,robert pittenger,"Pittenger, Robert",R,1,193452
@@ -949,7 +949,7 @@ OH,03,John,Adams,john adams,"Adams, John",R,0,91560
 OH,04,Jim,Jordan,jim jordan,"Jordan, Jim",R,1,210227
 OH,04,Janet,Garrett,janet garrett,"Garrett, Janet",D,0,98981
 OH,05,Bob,Latta,bob latta,"Latta, Bob",R,1,244599
-OH,05,"James, Jr.",Neu,"james, neu","Neu, James, Jr.",D,0,100392
+OH,05,"James, Jr.",Neu,james neu,"Neu, James, Jr.",D,0,100392
 OH,06,Bill,Johnson,bill johnson,"Johnson, Bill",R,1,213975
 OH,06,Michael L.,Lorentz,michael lorentz,"Lorentz, Michael L.",D,0,88780
 OH,07,Bob ,Gibbs,bob gibbs,"Gibbs, Bob ",R,1,198221
@@ -973,7 +973,7 @@ OH,12,Joe ,Manchik,joe manchik,"Manchik, Joe ",OTHER,0,13474
 OH,12,John J.,Baumeister,john baumeister,"Baumeister, John J.",OTHER,0,156
 OH,13,Tim ,Ryan,tim ryan,"Ryan, Tim ",D,1,208610
 OH,13,Richard A.,Morckel,richard morckel,"Morckel, Richard A.",R,0,99377
-OH,13,"Calvin, Sr.",Hill,"calvin, hill","Hill, Calvin, Sr.",OTHER,0,17
+OH,13,"Calvin, Sr.",Hill,calvin hill,"Hill, Calvin, Sr.",OTHER,0,17
 OH,14,David P.,Joyce,david joyce,"Joyce, David P.",R,1,219191
 OH,14,Michael,Wager,michael wager,"Wager, Michael",D,0,130907
 OH,14,Andrew ,Jarvi,andrew jarvi,"Jarvi, Andrew ",OTHER,0,171
@@ -983,7 +983,7 @@ OH,16,Jim,Renacci,jim renacci,"Renacci, Jim",R,1,225794
 OH,16,Keith ,Mundy,keith mundy,"Mundy, Keith ",D,0,119830
 OK,01,Jim ,Bridenstine,jim bridenstine,"Bridenstine, Jim ",R,1,Unopposed
 OK,02,Markwayne ,Mullin,markwayne mullin,"Mullin, Markwayne ",R,1,189839
-OK,02,Joshua,Harris-Till,joshua harris-till,"Harris-Till, Joshua",D,0,62387
+OK,02,Joshua,Harris-Till,joshua harristill,"Harris-Till, Joshua",D,0,62387
 OK,02,John ,McCarthy,john mccarthy,"McCarthy, John ",OTHER,0,16644
 OK,03,Frank D.,Lucas,frank lucas,"Lucas, Frank D.",R,1,227525
 OK,03,Frankie,Robbins,frankie robbins,"Robbins, Frankie",D,0,63090
@@ -1054,7 +1054,7 @@ RI,01,David N.,Cicilline,david cicilline,"Cicilline, David N.",D,1,130540
 RI,01,Harold Russell,Taub,harold taub,"Taub, Harold Russell",R,0,71023
 RI,01,John,DeSimone,john desimone,"DeSimone, John",OTHER,0,42
 RI,01,Mickey,Mouse,mickey mouse,"Mouse, Mickey",OTHER,0,23
-RI,01,"Rufus, Jr.",Bailey,"rufus, bailey","Bailey, Rufus, Jr.",OTHER,0,19
+RI,01,"Rufus, Jr.",Bailey,rufus bailey,"Bailey, Rufus, Jr.",OTHER,0,19
 RI,01,Bernie,Sanders,bernie sanders,"Sanders, Bernie",OTHER,0,11
 RI,01,Jan,Malik,jan malik,"Malik, Jan",OTHER,0,9
 RI,01,Lincoln,Chafee,lincoln chafee,"Chafee, Lincoln",OTHER,0,6
@@ -1070,7 +1070,7 @@ SC,01,Dimitri,Cherny,dimitri cherny,"Cherny, Dimitri",D,0,110539
 SC,01,Dimitri,Cherny,dimitri cherny,"Cherny, Dimitri",OTHER,0,5757
 SC,01,Dimitri,Cherny,dimitri cherny,"Cherny, Dimitri",OTHER,0,3483
 SC,01,Albert,Travison,albert travison,"Travison, Albert",OTHER,0,2774
-SC,01,"Michael, Jr.",Grier,"michael, grier","Grier, Michael, Jr.",OTHER,0,11614
+SC,01,"Michael, Jr.",Grier,michael grier,"Grier, Michael, Jr.",OTHER,0,11614
 SC,02,Joe,Wilson,joe wilson,"Wilson, Joe",R,1,183746
 SC,02,Arik,Bjorn,arik bjorn,"Bjorn, Arik",D,0,105306
 SC,02,Arik,Bjorn,arik bjorn,"Bjorn, Arik",OTHER,0,4146
@@ -1082,7 +1082,7 @@ SC,04,Chris,Fedalei,chris fedalei,"Fedalei, Chris",D,0,91676
 SC,04,Michael,Chandler,michael chandler,"Chandler, Michael",OTHER,0,5103
 SC,05,Mick,Mulvaney,mick mulvaney,"Mulvaney, Mick",R,1,175909
 SC,05,Fran,Person,fran person,"Person, Fran",D,0,115437
-SC,05,"Rudy, Jr.",Barnes,"rudy, barnes","Barnes, Rudy, Jr.",OTHER,0,6239
+SC,05,"Rudy, Jr.",Barnes,rudy barnes,"Barnes, Rudy, Jr.",OTHER,0,6239
 SC,06,"James E. ""Jim""",Clyburn,james clyburn,"Clyburn, James E. ""Jim""",D,1,177947
 SC,06,Laura,Sterling,laura sterling,"Sterling, Laura",R,0,70099
 SC,06,Rich,Piotrowski,rich piotrowski,"Piotrowski, Rich",OTHER,0,3131
@@ -1120,7 +1120,7 @@ TN,08,Shelia L.,Godwin,shelia godwin,"Godwin, Shelia L.",OTHER,0,6442
 TN,08,James,Hart,james hart,"Hart, James",OTHER,0,4057
 TN,08,Adrian M.,Montague,adrian montague,"Montague, Adrian M.",OTHER,0,2497
 TN,08,Mark J.,Rawles,mark rawles,"Rawles, Mark J.",OTHER,0,2445
-TN,08,Karen Free Spirit,Talley-Lane,karen talley-lane,"Talley-Lane, Karen Free Spirit",OTHER,0,1981
+TN,08,Karen Free Spirit,Talley-Lane,karen talleylane,"Talley-Lane, Karen Free Spirit",OTHER,0,1981
 TN,09,Steve,Cohen,steve cohen,"Cohen, Steve",D,1,171631
 TN,09,Wayne,Alberson,wayne alberson,"Alberson, Wayne",R,0,41123
 TN,09,Paul,Cook,paul cook,"Cook, Paul",OTHER,0,5203
@@ -1142,7 +1142,7 @@ TX,05,Jeb,Hensarling,jeb hensarling,"Hensarling, Jeb",R,1,155469
 TX,05,Ken,Ashby,ken ashby,"Ashby, Ken",OTHER,0,37406
 TX,06,Joe,Barton,joe barton,"Barton, Joe",R,1,159444
 TX,06,Ruby Faye,Woolridge,ruby woolridge,"Woolridge, Ruby Faye",D,0,106667
-TX,06,"Darrel, Jr.",Smith,"darrel, smith","Smith, Darrel, Jr.",OTHER,0,7185
+TX,06,"Darrel, Jr.",Smith,darrel smith,"Smith, Darrel, Jr.",OTHER,0,7185
 TX,07,John,Culberson,john culberson,"Culberson, John",R,1,143542
 TX,07,James,Cargas,james cargas,"Cargas, James",D,0,111991
 TX,08,Kevin,Brady,kevin brady,"Brady, Kevin",R,1,236379
@@ -1158,14 +1158,14 @@ TX,12,Bill,Bradshaw,bill bradshaw,"Bradshaw, Bill",D,0,76029
 TX,12,Ed,Colliver,ed colliver,"Colliver, Ed",OTHER,0,10604
 TX,13,Mac ,Thornberry,mac thornberry,"Thornberry, Mac ",R,1,199050
 TX,13,Calvin,DeWeese,calvin deweese,"DeWeese, Calvin",OTHER,0,14725
-TX,13,"H.F. ""Rusty""",Tomlinson,h.f. tomlinson,"Tomlinson, H.F. ""Rusty""",OTHER,0,7467
+TX,13,"H.F. ""Rusty""",Tomlinson,hf tomlinson,"Tomlinson, H.F. ""Rusty""",OTHER,0,7467
 TX,14,Randy,Weber,randy weber,"Weber, Randy",R,1,160631
 TX,14,Michael,Cole,michael cole,"Cole, Michael",D,0,99054
 TX,15,Vicente ,Gonzalez,vicente gonzalez,"Gonzalez, Vicente ",D,0,101712
 TX,15,Tim,Westley,tim westley,"Westley, Tim",R,0,66877
 TX,15,Vanessa S.,Tijerina,vanessa tijerina,"Tijerina, Vanessa S.",OTHER,0,5448
 TX,15,Ross Lynn,Leone,ross leone,"Leone, Ross Lynn",OTHER,0,3442
-TX,16,Beto,O'Rourke,beto o'rourke,"O'Rourke, Beto",D,1,150228
+TX,16,Beto,O'Rourke,beto orourke,"O'Rourke, Beto",D,1,150228
 TX,16,Jaime O.,Perez,jaime perez,"Perez, Jaime O.",OTHER,0,17491
 TX,16,Mary L.,Gourdoux,mary gourdoux,"Gourdoux, Mary L.",OTHER,0,7510
 TX,17,Bill,Flores,bill flores,"Flores, Bill",R,1,149417
@@ -1206,8 +1206,8 @@ TX,28,Zeffen ,Hardin,zeffen hardin,"Hardin, Zeffen ",R,0,57740
 TX,28,Michael D.,Cary,michael cary,"Cary, Michael D.",OTHER,0,4616
 TX,29,Gene,Green,gene green,"Green, Gene",D,1,95649
 TX,29,Julio ,Garza,julio garza,"Garza, Julio ",R,0,31646
-TX,29,N. Ruben,Perez,n. perez,"Perez, N. Ruben",OTHER,0,3234
-TX,29,James ,Partsch-Galvan,james partsch-galvan,"Partsch-Galvan, James ",OTHER,0,1453
+TX,29,N. Ruben,Perez,n perez,"Perez, N. Ruben",OTHER,0,3234
+TX,29,James ,Partsch-Galvan,james partschgalvan,"Partsch-Galvan, James ",OTHER,0,1453
 TX,30,Eddie Bernice,Johnson,eddie johnson,"Johnson, Eddie Bernice",D,1,170502
 TX,30,Charles,Lingerfelt,charles lingerfelt,"Lingerfelt, Charles",R,0,41518
 TX,30,Jarrett R.,Woods,jarrett woods,"Woods, Jarrett R.",OTHER,0,4753
@@ -1219,9 +1219,9 @@ TX,32,Pete,Sessions,pete sessions,"Sessions, Pete",R,1,162868
 TX,32,Ed,Rankin,ed rankin,"Rankin, Ed",OTHER,0,43490
 TX,32,Gary,Stuard,gary stuard,"Stuard, Gary",OTHER,0,22813
 TX,33,Marc ,Veasey,marc veasey,"Veasey, Marc ",D,1,93147
-TX,33,M. Mark ,Mitchell,m. mitchell,"Mitchell, M. Mark ",R,0,33222
+TX,33,M. Mark ,Mitchell,m mitchell,"Mitchell, M. Mark ",R,0,33222
 TX,34,Filemon B.,Vela,filemon vela,"Vela, Filemon B.",D,1,104638
-TX,34,"Rey, Jr.",Gonzalez,"rey, gonzalez","Gonzalez, Rey, Jr.",R,0,62323
+TX,34,"Rey, Jr.",Gonzalez,rey gonzalez,"Gonzalez, Rey, Jr.",R,0,62323
 TX,35,Lloyd,Doggett,lloyd doggett,"Doggett, Lloyd",D,1,124612
 TX,35,Susan,Narvaiz,susan narvaiz,"Narvaiz, Susan",R,0,62384
 TX,35,Rhett Rosenquest,Smith,rhett smith,"Smith, Rhett Rosenquest",OTHER,0,6504
@@ -1255,13 +1255,13 @@ VT,00,Paul,Dame,paul dame,"Dame, Paul",OTHER,0,10
 VT,00,Randy,Brock,randy brock,"Brock, Randy",OTHER,0,9
 VT,00,Donald,Trump,donald trump,"Trump, Donald",OTHER,0,6
 VA,01,"Robert J. ""Rob""",Wittman,robert wittman,"Wittman, Robert J. ""Rob""",R,1,230213
-VA,01,"M. D. ""Matt""",Rowe,m. rowe,"Rowe, M. D. ""Matt""",D,0,140785
+VA,01,"M. D. ""Matt""",Rowe,m rowe,"Rowe, M. D. ""Matt""",D,0,140785
 VA,01,Glenda Gail,Parker,glenda parker,"Parker, Glenda Gail",OTHER,0,12866
 VA,02,Scott W.,Taylor,scott taylor,"Taylor, Scott W.",R,0,190475
 VA,02,Shaun D.,Brown,shaun brown,"Brown, Shaun D.",D,0,119440
 VA,03,"Robert C. ""Bobby""",Scott,robert scott,"Scott, Robert C. ""Bobby""",D,1,208337
-VA,03,"M. L. ""Marty""",Williams,m. williams,"Williams, M. L. ""Marty""",R,0,103289
-VA,04,A. Donald ,McEachin,a. mceachin,"McEachin, A. Donald ",D,0,200136
+VA,03,"M. L. ""Marty""",Williams,m williams,"Williams, M. L. ""Marty""",R,0,103289
+VA,04,A. Donald ,McEachin,a mceachin,"McEachin, A. Donald ",D,0,200136
 VA,04,"Michael L. ""Mike""",Wade,michael wade,"Wade, Michael L. ""Mike""",R,0,145731
 VA,05,"Tom A., Jr.",Garrett,tom garrett,"Garrett, Tom A., Jr.",R,0,207758
 VA,05,Jane D.,Dittmar,jane dittmar,"Dittmar, Jane D.",D,0,148339
@@ -1272,12 +1272,12 @@ VA,07,Eileen M.,Bedell,eileen bedell,"Bedell, Eileen M.",D,0,160159
 VA,08,"Donald S., Jr.",Beyer,donald beyer,"Beyer, Donald S., Jr.",D,1,246653
 VA,08,Charles A.,Hernick,charles hernick,"Hernick, Charles A.",R,0,98387
 VA,08,Julio,Gracia,julio gracia,"Gracia, Julio",OTHER,0,14664
-VA,09,H. Morgan,Griffith,h. griffith,"Griffith, H. Morgan",R,1,212838
+VA,09,H. Morgan,Griffith,h griffith,"Griffith, H. Morgan",R,1,212838
 VA,09,Derek W.,Kitts,derek kitts,"Kitts, Derek W.",D,0,87877
 VA,09,Janice Allen,Boyd,janice boyd,"Boyd, Janice Allen",OTHER,0,9050
 VA,10,Barbara Jean,Comstock,barbara comstock,"Comstock, Barbara Jean",R,1,210791
 VA,10,LuAnn L.,Bennett,luann bennett,"Bennett, LuAnn L.",D,0,187712
-VA,11,"G. E. ""Gerry""",Connolly,g. connolly,"Connolly, G. E. ""Gerry""",D,1,247818
+VA,11,"G. E. ""Gerry""",Connolly,g connolly,"Connolly, G. E. ""Gerry""",D,1,247818
 VI,00,Stacey E.,Plaskett,stacey plaskett,"Plaskett, Stacey E.",D,1,14531
 WA,01,Suzan,DelBene,suzan delbene,"DelBene, Suzan",D,1,193619
 WA,01,Robert J.,Sutherland,robert sutherland,"Sutherland, Robert J.",R,0,155779
@@ -1317,12 +1317,12 @@ WI,03,Ryan,Peterson,ryan peterson,"Peterson, Ryan",OTHER,0,169
 WI,04,Gwen S.,Moore,gwen moore,"Moore, Gwen S.",D,1,220181
 WI,04,Andy,Craig,andy craig,"Raymond, Robert R. ",OTHER,0,33494
 WI,04,Andy,Craig,andy craig,"Craig, Andy",OTHER,0,32183
-WI,05,"F. James., Jr.",Sensenbrenner,f. sensenbrenner,"Sensenbrenner, F. James., Jr.",R,1,260706
+WI,05,"F. James., Jr.",Sensenbrenner,f sensenbrenner,"Sensenbrenner, F. James., Jr.",R,1,260706
 WI,05,Khary,Penebaker,khary penebaker,"Penebaker, Khary",D,0,114477
 WI,05,John ,Arndt,john arndt,"Arndt, John ",OTHER,0,15324
 WI,06,Glenn,Grothman,glenn grothman,"Grothman, Glenn",R,1,204147
 WI,06,Sarah,Lloyd,sarah lloyd,"Lloyd, Sarah",D,0,133072
-WI,06,W. Michael,Slattery,w. slattery,"Dahlke, Jeff",OTHER,0,19716
+WI,06,W. Michael,Slattery,w slattery,"Dahlke, Jeff",OTHER,0,19716
 WI,07,Sean,Duffy,sean duffy,"Duffy, Sean",R,1,223418
 WI,07,Mary,Hoeft,mary hoeft,"Hoeft, Mary",D,0,138643
 WI,08,Mike,Gallagher,mike gallagher,"Gallagher, Mike",R,0,227892
